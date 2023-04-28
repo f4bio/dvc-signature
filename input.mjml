@@ -1,0 +1,77 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-class name="mutedText" color="#a6a6a6" font-size="12px" />
+      <mj-class name="nameText" color="#767171" font-size="14px" />
+      <mj-class name="brandedText" color="#33cccc" font-size="12px" />
+      <mj-class name="smallerMutedText" color="#909595" font-size="8px" />
+      <mj-class name="smallerBrandedText" color="#33cccc" font-size="8px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+
+    <mj-raw>
+      <!-- Intro text -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="mutedText">#gerneperDu!</mj-text>
+        <mj-text mj-class="nameText">Max Mustermann</mj-text>
+        <mj-text mj-class="brandedText">Marketing</mj-text>
+        <mj-text mj-class="smallerMutedText">
+          <ul style="list-style-type: none; margin: 0; padding: 0;">
+            <li>Mobile:</li>
+            <li>E-Mail:</li>
+            <li>LinkedIn:</li>
+            <li>Website: https://dvc.ventures</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Company Info -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="brandedText">DVC - Digital Venture Consultants</mj-text>
+        <mj-text mj-class="smallerBrandedText">Office: Frankfurt/Main</mj-text>
+
+        <mj-text mj-class="smallerMutedText">Operates under ZiTOS GmbH - 65510 H&uuml;nstetten, Am Silberberg 16</mj-text>
+        <mj-text mj-class="smallerMutedText">HRB Nr. 31239, Gerichtsstand Wiesbaden Impressum &amp; Datenschutz</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Banner -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-image src="./assets/dvc-zukunftswerk.org-banner.png"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Social Icons -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="brandedText">Follow us on:</mj-text>
+        <mj-social align="left" icon-size="30px" mode="horizontal" padding="0px 20px">
+          <mj-social-element name="linkedin" href="https://www.linkedin.com/company/digital-venture-consultants/"></mj-social-element>
+          <mj-social-element name="instagram" href="https://www.instagram.com/dvc.ventures/"></mj-social-element>
+          <mj-social-element src="./assets/tiktok.svg" href="https://www.tiktok.com/@dvc.ventures"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Hashtags -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="brandedText">#dvc #digital #venture #consultants #sustainability #greensoftwaredesign </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
